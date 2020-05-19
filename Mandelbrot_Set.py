@@ -1,7 +1,7 @@
 import numpy as np
 from numba import jit
 import matplotlib.pyplot as plt
-
+# Deze berekeningen zijn vrij complex, het kan dus een aantal minuten duren tot alles is afgerond.
 
 @jit
 def mandelbrot(Re, Im, max_iter):
